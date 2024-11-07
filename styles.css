@@ -1,0 +1,35 @@
+.title{
+    width: 99%;
+    height: fit-content;
+    padding: 2px;
+    padding-right: 0%;
+    background-color: rgb(96, 101, 118);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: rgb(48, 50, 58);
+
+}
+
+.title > h1 {
+    text-align: center;
+    text-shadow: 5px 2px 3px rgba(147, 147, 147, 0.553);
+    font-family:fantasy;
+}
+
+.ptitle{
+    font-size: 125%;
+    margin-bottom: 0px;
+}
+
+li {
+    margin: 10px 0px 2px 0px;
+}
+
+.icon {
+    margin-left:10px;
+    object-fit: scale-down;
+    width:25px;
+    max-width: 75px;
+    max-height: 75px;
+}
