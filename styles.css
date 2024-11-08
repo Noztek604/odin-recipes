@@ -39,13 +39,18 @@ img.recipe {
     height: 30em;
     border-style: solid;
     border-width: 0.8em;
-    border-color: #B67233;
+    border-color: #b67233bb;
     border-radius: 5em;
 
 }
 
+img.recipe:hover{
+    border-color: #eec715dd;
+}
+
 .container {
-        display: flex;              
+        display: flex;       
+        align-items: flex-start;       
         align-items: center;        
         gap: 20px;  
  }
@@ -55,7 +60,8 @@ img.recipe {
     margin-top: 1px;
 }
 
-ul li:first-child{
+ul li:first-child,
+ol li:first-child{
     margin-top:-10px;
 }
 
@@ -70,4 +76,10 @@ h2{
 
 .wpic{
     margin-left:0.5em;
+}
+
+footer p{
+    color:rgba(0, 0, 0, 0.521);
+    font-size: 0.8rem;
+    text-align: center;
 }
