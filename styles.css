@@ -50,8 +50,7 @@ img.recipe:hover{
 
 .container {
         display: flex;       
-        align-items: flex-start;       
-        align-items: center;        
+        align-items: flex-start;              
         gap: 20px;  
  }
 
@@ -73,7 +72,9 @@ h3{
 h2{
     margin:1px;
 }
-
+h4 {
+    margin-top:-5px;
+}
 .wpic{
     margin-left:0.5em;
 }
